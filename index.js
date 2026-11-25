@@ -18,9 +18,6 @@ function add_emp(name, email, eid){
     }
 }
 
-console.log(add_emp('pavan', 'Pavan@gmail.com', 101));
-// console.log(all_emp);
-console.log(add_emp('kumar', 'pavan@2', 102));
 
 
 function update_emp(id, newdata){
