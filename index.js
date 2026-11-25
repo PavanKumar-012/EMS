@@ -18,7 +18,8 @@ function add_emp(name, email, eid){
     }
 }
 
-
+add_emp('pavan', 'pavan@gmail.com', 101)
+add_emp('kumar', 'kuma@g', 102)
 
 function update_emp(id, newdata){
     const index = all_emp.findIndex((emp)=>emp.eid ===id)
@@ -58,8 +59,12 @@ function search_emp(emp_id){
 }
 
 function list_emp() {
-    console.log(all_emp);
+    // console.log(all_emp);
+    for (let i of all_emp){
+        console.log(i);
+        
+    }
     
 }
 
-
+list_emp()
