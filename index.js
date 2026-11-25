@@ -65,9 +65,4 @@ function list_emp() {
     
 }
 
-list_emp()
-console.log(delete_emp(1001));
-list_emp()
-console.log(search_emp(1001));
-
 
