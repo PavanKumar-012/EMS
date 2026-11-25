@@ -61,10 +61,8 @@ function search_emp(emp_id){
 function list_emp() {
     // console.log(all_emp);
     for (let i of all_emp){
-        console.log(i);
-        
-    }
-    
+        console.log(i);    
+    }    
 }
 
 list_emp()
