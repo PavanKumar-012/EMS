@@ -1,0 +1,15 @@
+
+----------- Assignment  ---------
+
+Build a CLI-based: 
+Employee Management System 
+
+Features: 
+Add employee 
+Update employee 
+Delete employee 
+Search employee 
+List employees 
+
+
+
